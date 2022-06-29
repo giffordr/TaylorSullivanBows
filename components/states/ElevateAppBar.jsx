@@ -135,7 +135,7 @@ export default function ElevateAppBar(props) {
         </ElevationScroll>
       <Toolbar />
       <Box sx={{maxWidth:900, width:'100%'}} display="flex" lignItems="center" justifyContent="center" m='auto' component="img"
-        src="../../bowPic2.jpeg">
+        src="bowPic2.jpeg">
       </Box>
         
          

@@ -143,7 +143,7 @@ render() {
             <Card sx={{maxWidth: 370, minWidth: 210}}>
               <CardMedia
                 component="img"
-                image="../../EEDAA25B-220C-4103-B764-44427E4CB54D_1_105_c.jpg"
+                image="EEDAA25B-220C-4103-B764-44427E4CB54D_1_105_c.jpg"
                 alt="Working in shop1"
               />
                 
@@ -153,7 +153,7 @@ render() {
             <Card sx={{maxWidth: 370, minWidth: 210}}>
               <CardMedia
                 component="img"
-                image="../../IMG_0448.jpeg"
+                image="IMG_0448.jpeg"
                 alt="Working in shop2"
               />
             </Card>
@@ -162,7 +162,7 @@ render() {
             <Card sx={{maxWidth: 370, minWidth: 210, maxHeight: 290}}>
               <CardMedia
                 component="img"
-                image="../../IMG_0407.jpeg"
+                image="IMG_0407.jpeg"
                 alt="Working in shop3"
               />
             </Card>

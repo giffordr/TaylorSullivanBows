@@ -1,8 +1,8 @@
 {
-  "name": "centering",
+  "name": "TaylorSullivanBows",
   "version": "1.0.0",
   "private": true,
-  "description": "Centering Web App",
+  "description": "WebPage for Taylor Sullivan Bows",
   "main": "webServer.js",
   "scripts": {
     "build": "webpack --devtool eval-cheap-module-source-map --output-pathinfo",

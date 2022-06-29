@@ -67,7 +67,7 @@ render() {
         <Card sx={{ minWidth: 300, maxWidth: 800}}>
           <CardMedia
             component="img"
-            image="../../IMG_0448.jpeg"
+            image="IMG_0448.jpeg"
             alt="Picture Working In Shop"
           />
         </Card>

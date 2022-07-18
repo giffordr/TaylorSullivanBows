@@ -29,9 +29,9 @@ button {
 }
 
 .App-header {
-  background:linear-gradient( -45deg, #00966f,#c36417);
+  background:linear-gradient( -45deg, #F7F3F3, #FFFFFF);
   background-size: 400% 400%;
-  min-height: 90vmin;
+  min-height: 80vmin;
   animation: gradient 50s ease infinite;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ button {
   color: white;
 }
 .App-footer{
-  background:linear-gradient( -45deg, #00966f,#c36417);
+  background:linear-gradient( -45deg, #F7F3F3, #FFFFFF);
   background-size: 400% 400%;
   max-height: 90vmin;
   animation: gradient 50s ease infinite;
@@ -49,7 +49,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #444242;
 }
 
 .Centering {

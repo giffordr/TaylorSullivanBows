@@ -11,6 +11,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
+import CardMedia from '@mui/material/CardMedia';
 import dong from './A_resonant_trimmed_2.mp3'
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
@@ -66,14 +67,13 @@ class States extends React.Component {
   return (
     <div className="App"> 
       
-      <header className="App-header">
-        <ElevateAppBar/>
-      </header> 
+      
+      <ElevateAppBar/>
+      
 
       <HashRouter>
           <Switch>
-          <Route path="/description" component={Description} />
-          
+          <Route path="/description" component={Description} /> 
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/availability" component={Availability} />
@@ -82,16 +82,40 @@ class States extends React.Component {
       </HashRouter>
       
       <footer className="App-footer">
-        <Box sx={{maxWidth:900}} align-items="center">
-          
-            <Typography variant="h6" align="center"> 
-               Contact
+        <Box sx={{width:'100%'}} align-items="left" align="left" m='3vmax'>
+            <Typography variant="h5" align="left"> 
+               Taylor Sullivan Bows
             </Typography>
+          
             
           
-          <Divider />
-          <p>
-          <Stack>
+            <p>
+              <Stack align-items="left"> 
+               <Stack display="flex" direction="column" spacing={0} align="left">
+                 <Typography variant="body" align="left"> 
+                   1689 Amberwood Dr.
+                  </Typography>
+                 <Typography variant="body" align="left"> 
+                   Apt 106
+                  </Typography>
+                 <Typography variant="body" align="left"> 
+                   South Pasadena, CA 91030
+                  </Typography>
+               </Stack>
+              </Stack>  
+            </p>
+        </Box>
+      </footer> 
+      
+
+    </div>
+  );
+  
+}
+}
+export default States;
+ //onClick={e => this.handleButtonClick(e.first_name + " " + e.last_name, e)}>{e.first_name + " " + e.last_name}
+/*<Stack>
             
            <Stack direction="row" spacing={2}>
             <LocationOnIcon/>
@@ -120,17 +144,4 @@ class States extends React.Component {
                 
              
             
-          </Stack>
-          </p>
-        
-        </Box>
-      </footer> 
-      
-
-    </div>
-  );
-  
-}
-}
-export default States;
- //onClick={e => this.handleButtonClick(e.first_name + " " + e.last_name, e)}>{e.first_name + " " + e.last_name}
+          </Stack>*/

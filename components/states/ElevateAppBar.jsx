@@ -1,3 +1,4 @@
+import './AppBar.css';
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
@@ -6,6 +7,8 @@ import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardMedia from '@mui/material/CardMedia';
 import Container from '@mui/material/Container';
 import AdbIcon from '@mui/icons-material/Adb';
 import MenuItem from '@mui/material/MenuItem';
@@ -38,6 +41,7 @@ function ElevationScroll(props) {
 
   return React.cloneElement(children, {
     elevation: trigger ? 4 : 0,
+    sx: trigger ? {backdropFilter:"blur(10px)"} : {backdropFilter:"none"}
   });
 }
 
@@ -73,7 +77,7 @@ export default function ElevateAppBar(props) {
     <React.Fragment>
       <CssBaseline />
         <ElevationScroll {...props}>
-          <AppBar sx={{backdropFilter:"blur(10px)"}} style={{ background: 'transparent'}}>
+          <AppBar style={{ background: 'transparent'}}>
             <Container maxWidth="xl">
               <Toolbar disableGutters>
                 <a href="#/" style= {{color: '#444242'}}>
@@ -133,12 +137,10 @@ export default function ElevateAppBar(props) {
             </Container>     
           </AppBar>
         </ElevationScroll>
-      <Toolbar />
-      <Box sx={{maxWidth:900, width:'100%'}} display="flex" lignItems="center" justifyContent="center" m='auto' component="img"
-        src="bowPic2.jpeg">
-      </Box>
+      
         
          
     </React.Fragment>
   );
 }
+//sx={{backdropFilter:"blur(10px)"}}

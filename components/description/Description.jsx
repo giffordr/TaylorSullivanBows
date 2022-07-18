@@ -56,7 +56,7 @@ class Description extends React.Component {
   };
   
   message = (
-    <React.Fragment> 
+    <React.Fragment>
       <Stack direction="row" justifyContent="space-between">
         <Typography >Playing: Spatialized Sound Demo</Typography>
   
@@ -120,23 +120,21 @@ class Description extends React.Component {
 render() {
   
   return (
+    <div>
+    <Card sx={{maxWidth: '100%', height: '30vmax', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
+         <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
+             <CardContent sx={{alignItems: 'center', justifyContent:'center', m:'15vmax'}}>   
+              <Typography style={{color:"#444242"}} variant="h6" align="center" alignItems="center" justifyContent="center" m='auto'> 
+                   A boutique shop for bow repairs and rehairs
+              </Typography>
+            </CardContent>
+          </div>
+      </Card>
     <div className="Body">
+      
     <Box sx={{maxWidth:900}} alignItems="center" justifyContent="center" m='auto'>    
-      <p> 
-        <div className = "Description">
-          <Typography variant="h4" align="center"> 
-             Welcome to Taylor Sullivan Bows
-          </Typography>
-        </div>
-      </p>
-    <Divider />
-      <p> 
-        <div >
-          <Typography variant="body"> 
-            This webpage is still being built. Check back soon to learn more about our services, and for easy appointment bookings. Thanks for your patience.
-          </Typography>
-        </div>
-      </p>
+    
+      
       <Box sx={{ flexGrow: 1 }} display="flex" alignItems="center" justifyContent="center" m="auto">      
         <Grid container spacing={2} display="flex" alignItems="center" justifyContent="center">
          <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
@@ -181,6 +179,7 @@ render() {
       
     </Box>
     </div>
+      </div>
     );
   }
 }

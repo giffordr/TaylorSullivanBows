@@ -46,6 +46,14 @@ class About extends React.Component {
 render() {
   
   return (
+    <div>
+      <Card sx={{maxWidth: '100%', maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
+              <CardMedia
+                component="img"
+                image="IMG_0448.jpeg"
+                alt="Working in shop2"
+              />
+      </Card>
   <div className="Body">
     <Box sx={{maxWidth:900}} alignItems="center" justifyContent="center" m='auto'>
       <p> 
@@ -83,6 +91,7 @@ render() {
       
     
   </div>
+      </div>
   );
   
 }

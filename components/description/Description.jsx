@@ -121,10 +121,10 @@ render() {
   
   return (
     <div>
-    <Card sx={{maxWidth: '100%', height: '30vmax', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
+    <Card sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
          <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
              <CardContent sx={{alignItems: 'center', justifyContent:'center', m:'15vmax'}}>   
-              <Typography style={{color:"#444242"}} variant="h6" align="center" alignItems="center" justifyContent="center" m='auto'> 
+              <Typography style={{color:"#444242"}} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
                    A boutique shop for bow repairs and rehairs
               </Typography>
             </CardContent>

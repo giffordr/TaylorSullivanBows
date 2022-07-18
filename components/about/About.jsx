@@ -42,11 +42,16 @@ import Statement from '../statement/Statement';
 
 class About extends React.Component {
 
+componentDidMount(){
+          const section = document.querySelector( '#Bio' );
+            section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+}
+
  
 render() {
   
   return (
-    <div>
+    <div id="Bio">
       <Card sx={{maxWidth: '100%', maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
               <CardMedia
                 component="img"

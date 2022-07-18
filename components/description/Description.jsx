@@ -22,6 +22,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import {
   HashRouter, Route, Routes, Link, Switch,
 } from 'react-router-dom';
@@ -132,53 +133,78 @@ render() {
       </Card>
     <div className="Body">
       
-    <Box sx={{maxWidth:900}} alignItems="center" justifyContent="center" m='auto'>    
+    <Box sx={{maxWidth:1500}} alignItems="center" justifyContent="center" m='auto'>    
     
       
       <Box sx={{ flexGrow: 1 }} display="flex" alignItems="center" justifyContent="center" m="auto">      
-        <Grid container spacing={2} display="flex" alignItems="center" justifyContent="center">
-         <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-            <Card sx={{maxWidth: 370, minWidth: 210}}>
-              <CardMedia
-                component="img"
-                image="EEDAA25B-220C-4103-B764-44427E4CB54D_1_105_c.jpg"
-                alt="Working in shop1"
-              />
-                
-            </Card>
-         </Grid>
+        <Grid container rowSpacing={0} columnSpacing={35} display="flex" alignItems="center" justifyContent="center">
+   
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-            <Card sx={{maxWidth: 370, minWidth: 210}}>
-              <CardMedia
-                component="img"
-                image="IMG_0448.jpeg"
-                alt="Working in shop2"
-              />
-            </Card>
+            <Stack direction="column" spacing={1}>
+              <Card sx={{maxWidth: 600, minWidth: 210}} square={true}>
+                <CardMedia
+                  component="img"
+                  image="IMG_0448.jpeg"
+                  alt="Working in shop2"
+                />
+              </Card>
+              <a href='/#/Services'><Typography variant="h3">Repairs<ArrowForwardIosIcon fontSize="large"/></Typography></a>
+              <p></p>
+            </Stack>
           </Grid>
+
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-            <Card sx={{maxWidth: 370, minWidth: 210, maxHeight: 290}}>
-              <CardMedia
-                component="img"
-                image="IMG_0407.jpeg"
-                alt="Working in shop3"
-              />
-            </Card>
-          </Grid>
+               <Stack direction="column" spacing={1}>
+                 <p></p>
+                   <a href='/#/Services'><Typography variant="h3">Rehairs<ArrowForwardIosIcon fontSize="large"/></Typography></a>
+                    <Card sx={{maxWidth: 600, minWidth: 210}} square={true}>
+                      <CardMedia
+                        component="img"
+                        image="IMG_0448.jpeg"
+                        alt="Working in shop1"
+                      />
+                        
+                    </Card>
+                 </Stack>
+             </Grid>
           
         </Grid>
+        
       </Box>
-      <p> 
-        <div >
-          <Typography variant="body"> 
+      
             
-          </Typography>
-        </div>
-      </p>
       
       
     </Box>
     </div>
+      <div>
+        <Card sx={{maxWidth: '100%', maxHeight: 700, position: 'relative'}} style={{ border: "none", boxShadow: "none" }} square={true}>
+          <CardMedia
+            component="img"
+            image="EEDAA25B-220C-4103-B764-44427E4CB54D_1_105_c.jpg"
+            alt="Working in shop2"
+          />
+          <Box
+            sx={{
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              bgcolor: 'rgba(0, 0, 0, 0)',
+              color: 'white',
+              padding: '10vmax',
+            }}
+            alignItems="center" justifyContent="center" m="auto"
+          >
+            <Grid container justify="center" direction="column" alignItems="center" m="auto">
+                <Typography variant="h4" align="center"> Have your bow repaired by someone that you trust</Typography>
+                <p><Button href="/#/About" color="success" variant="contained" >About Me</Button></p>
+            </Grid>
+            
+          </Box>
+        </Card>
+      </div>
       </div>
     );
   }

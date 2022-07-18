@@ -22,7 +22,7 @@ import {
 } from 'react-router-dom';
 
 
-const pages = ['About', 'Services', 'Availability'];
+const pages = ['About', 'Services', 'Availability', 'Contact'];
 
 
 

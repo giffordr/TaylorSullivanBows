@@ -148,7 +148,7 @@ render() {
                   alt="Working in shop2"
                 />
               </Card>
-              <a href='/#/Services'><Typography variant="h3">Repairs<ArrowForwardIosIcon fontSize="large"/></Typography></a>
+              <a href='/#/Services' style={{color: "#444242"}}><Typography variant="h3">Repairs<ArrowForwardIosIcon fontSize="large"/></Typography></a>
               <p></p>
             </Stack>
           </Grid>
@@ -156,7 +156,7 @@ render() {
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
                <Stack direction="column" spacing={1}>
                  <p></p>
-                   <a href='/#/Services'><Typography variant="h3">Rehairs<ArrowForwardIosIcon fontSize="large"/></Typography></a>
+                   <a href='/#/Services' style={{color: "#444242"}}><Typography variant="h3">Rehairs<ArrowForwardIosIcon fontSize="large"/></Typography></a>
                     <Card sx={{maxWidth: 600, minWidth: 210}} square={true}>
                       <CardMedia
                         component="img"

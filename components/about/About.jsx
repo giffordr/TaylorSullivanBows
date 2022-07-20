@@ -43,24 +43,15 @@ import Statement from '../statement/Statement';
 class About extends React.Component {
 
 componentDidMount(){
-          const section = document.querySelector( '#Bio' );
-            section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+           window.scrollTo({ top: 0, behavior: "smooth" })
 }
 
  
 render() {
   
   return (
-    <div id="Bio">
-      <Card sx={{maxWidth: '100%', maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
-              <CardMedia
-                component="img"
-                image="IMG_0448.jpeg"
-                alt="Working in shop2"
-              />
-      </Card>
   <div className="Body">
-    <Box sx={{maxWidth:900}} alignItems="center" justifyContent="center" m='auto'>
+    <Box sx={{maxWidth:1100}} alignItems="center" justifyContent="center" mx='auto' mt = '15vmin'>
       <p> 
         <div className = "Description">
           <Typography variant="h4" align="center"> 
@@ -68,23 +59,25 @@ render() {
           </Typography>
         </div>
       </p>
-    <Divider />
-      <p> 
-        <div >
-          <Typography variant="body"> 
-            Taylor Sullivan began her bow repair journey under the instruction of master bow maker Rodney Mohr at his Learning Trade Secrets workshops in Ashland, Ohio. Her interest in the world of repair came from refurbishing instruments and bows at J Brown Violin Maker in Claremont, California. Since then, she has been influenced and trained by many fine makers and restorers from all over the country. Taylor has studied closely with bow makers Rodney and Kate Mohr, Sarah Bystrom, and, most recently, Brianna Goldberg, who has passed on her bass bow rehair and repair expertise.
-          </Typography>
-        </div>
+      <p>
+        <Typography variant="body"> 
+                Taylor Sullivan began her bow repair journey under the instruction of master bow maker Rodney Mohr at his Learning Trade Secrets workshops in Ashland, Ohio. Her interest in the world of repair came from refurbishing instruments and bows at J Brown Violin Maker in Claremont, California. Since then, she has been influenced and trained by many fine makers and restorers from all over the country. Taylor has studied closely with bow makers Rodney and Kate Mohr, Sarah Bystrom, and, most recently, Brianna Goldberg, who has passed on her bass bow rehair and repair expertise.
+        </Typography>
       </p>
+    
+      
+        
       <Box sx={{ flexGrow: 1 }} display="flex" alignItems="center" justifyContent="center" m="auto">
-        <Card sx={{ minWidth: 300, maxWidth: 800}}>
+        <Card sx={{ minWidth: 210, maxWidth: 800}}>
           <CardMedia
             component="img"
-            image="EEDAA25B-220C-4103-B764-44427E4CB54D_1_105_c.jpg"
+            image="IMG_0415.jpeg"
             alt="Picture Working In Shop"
           />
         </Card>
       </Box>
+
+      
       <p> 
         <div >
           <Typography variant="body"> 
@@ -96,7 +89,7 @@ render() {
       
     
   </div>
-      </div>
+     
   );
   
 }

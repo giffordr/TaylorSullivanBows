@@ -36,7 +36,9 @@ import CloseIcon from '@mui/icons-material/Close';
 
 class Services extends React.Component {
   
-
+componentDidMount(){
+           window.scrollTo({ top: 0, behavior: "smooth" })
+}
  
 render() {
   

@@ -74,7 +74,7 @@ class States extends React.Component {
 
       <HashRouter>
           <Switch>
-          <Route path="/description" component={Description} /> 
+          <Route path="/home" component={Description} /> 
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/contact" component={Contact} />

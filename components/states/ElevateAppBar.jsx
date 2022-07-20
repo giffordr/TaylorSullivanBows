@@ -23,6 +23,7 @@ import {
 
 
 const pages = ['Services', 'About', 'Contact'];
+const pages2 = ['Home', 'Services', 'About', 'Contact'];
 
 
 
@@ -140,7 +141,7 @@ export default function ElevateAppBar(props) {
                       horizontal: 'right',
                     }}
                   >
-                    {pages.map((page) => (
+                    {pages2.map((page) => (
                     
                     <a href={"#/"+page} style= {{color: '#444242'}}>
                       <MenuItem key={page} >

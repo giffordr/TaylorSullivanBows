@@ -118,12 +118,15 @@ class Description extends React.Component {
     
     //this.setState({ isPlaying: false });
   };
- 
+componentDidMount(){
+          const section = document.querySelector( '#Header' );
+            section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+}
 render() {
   
   return (
     <div>
-    <Card sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
+    <Card id = 'Header' sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
          <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
              <CardContent sx={{alignItems: 'center', justifyContent:'center', m:'25vmin'}}>   
               <Typography style={{color:"#444242"}} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 

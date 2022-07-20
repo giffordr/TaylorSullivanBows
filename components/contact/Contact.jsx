@@ -160,8 +160,8 @@ render() {
               <CardContent>
                 <Typography variant="h5" alignItems="center" align = "center">Phone</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
-                  <Typography id = 'number' variant="body" alignItems="center" align = "center">(626) 658-7933</Typography><br/>
-                  <Typography id = 'preference' variant="body" alignItems="center" align = "center">(Text preferred)</Typography>
+                  <Typography id = 'number' variant="body" alignItems="center" align = "center">(626) 658-7933</Typography>
+                  
                 </Stack>
               </CardContent>
             </Card>

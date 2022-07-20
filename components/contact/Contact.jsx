@@ -144,18 +144,6 @@ render() {
       <Box sx={{ flexGrow: 1 }} display="flex" alignItems="center" justifyContent="center" m="auto">
         <Stack direction="column" alignItems="center" justifyContent="center">
         <Grid container spacing={1} display="flex" alignItems="center" justifyContent="center">
-         <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-            <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
-              <CardContent>
-                <Typography variant="h5">Hours of Operation</Typography><br/>
-                <Stack direction="column" alignItems="center" align = "center">
-                  <Typography variant="subtitle">Wednesday-Friday</Typography>
-                  <Typography variant="subtitle">10 am- 5 pm</Typography><br/>
-                  <Typography variant="subtitle">(By appointment only)</Typography>
-                </Stack>
-              </CardContent>
-            </Card>
-         </Grid>
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
             <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
               <CardContent alignItems="center" justifyContent="center">

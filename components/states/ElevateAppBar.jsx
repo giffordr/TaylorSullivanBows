@@ -105,16 +105,16 @@ export default function ElevateAppBar(props) {
                 
                 <Box sx={{flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' }}} display="flex" alignItems="right" justifyContent="right">
                   <a href="#/Contact" style= {{color: '#444242'}}>
-                    <Typography style={{color:"#444242"}} variant="h6" component="div">
-                     Book Appointment
-                    </Typography>
+                    <Button  variant="contained">
+                       Book Appointment
+                    </Button>
                   </a>
                 </Box>
                 <Box sx={{flexGrow: 1, justifyContent: 'left', display: { xs: 'flex', md: 'none' }}} display="flex" alignItems="left" justifyContent="left">
                   <a href="#/Contact" style= {{color: '#444242'}}>
-                    <Typography style={{color:"#444242"}} variant="h6" component="div">
-                     Book Appointment
-                    </Typography>
+                    <Button  variant="contained">
+                       Book Appointment
+                    </Button>
                   </a>
                 </Box>
                 

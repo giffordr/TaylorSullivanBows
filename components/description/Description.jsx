@@ -153,7 +153,8 @@ render() {
                   alt="Working in shop2"
                 />
               </Card>
-              <a href='#/About' style={{color: "#444242"}}><Typography sx={{ textDecoration:'underline'}} variant="h3">About Taylor<ArrowForwardIcon fontSize="large"/></Typography></a>
+              <a href='#/About' style={{color: "#444242"}}><Typography variant="h3">About Taylor<ArrowForwardIcon fontSize="large"/></Typography></a>
+              <Divider/>
               
               <p></p>
             </Stack>
@@ -162,7 +163,8 @@ render() {
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
                <Stack direction="column" spacing={1}>
                  <p></p>
-                   <a href='#/Services' style={{color: "#444242"}}><Typography sx={{ textDecoration:'underline'}} variant="h3">Services<ArrowForwardIcon fontSize="large"/></Typography></a>
+                   <a href='#/Services' style={{color: "#444242"}}><Typography variant="h3">Services<ArrowForwardIcon fontSize="large"/></Typography></a>
+                 <Divider/>
                    
                     <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none" }} square={true}>
                       <CardMedia

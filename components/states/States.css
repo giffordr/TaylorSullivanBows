@@ -12,6 +12,9 @@
   text-align: center;
   font-size: calc(10px + 2vmin);
 }
+.MuiTypography-root{
+	font-family: Bookman;
+}
 
 button {
     background-color: transparent;
@@ -20,6 +23,9 @@ button {
     cursor: default;
     overflow: hidden;
     outline: none;
+}
+a{
+	font-family: serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {

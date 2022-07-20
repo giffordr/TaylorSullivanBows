@@ -22,6 +22,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import {
   HashRouter, Route, Routes, Link, Switch,
@@ -124,13 +125,14 @@ render() {
     <div>
     <Card sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
          <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
-             <CardContent sx={{alignItems: 'center', justifyContent:'center', m:'15vmax'}}>   
+             <CardContent sx={{alignItems: 'center', justifyContent:'center', m:'25vmin'}}>   
               <Typography style={{color:"#444242"}} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
-                   A boutique shop for bow repairs and rehairs
+                   Violin family bow rehair and repair in the Los Angeles area
               </Typography>
             </CardContent>
           </div>
       </Card>
+      
     <div className="Body">
       
     <Box sx={{maxWidth:1500}} alignItems="center" justifyContent="center" m='auto'>    
@@ -141,14 +143,15 @@ render() {
    
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
             <Stack direction="column" spacing={1}>
-              <Card sx={{maxWidth: 600, minWidth: 210}} square={true}>
+              <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none" }} square={true}>
                 <CardMedia
                   component="img"
-                  image="IMG_0448.jpeg"
+                  image="Taylor Sullivan Bows Logo-01.png"
                   alt="Working in shop2"
                 />
               </Card>
-              <a href='/#/Services' style={{color: "#444242"}}><Typography variant="h3">Repairs<ArrowForwardIosIcon fontSize="large"/></Typography></a>
+              <a href='#/About' style={{color: "#444242"}}><Typography sx={{ textDecoration:'underline'}} variant="h3">About Taylor<ArrowForwardIcon fontSize="large"/></Typography></a>
+              
               <p></p>
             </Stack>
           </Grid>
@@ -156,11 +159,12 @@ render() {
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
                <Stack direction="column" spacing={1}>
                  <p></p>
-                   <a href='/#/Services' style={{color: "#444242"}}><Typography variant="h3">Rehairs<ArrowForwardIosIcon fontSize="large"/></Typography></a>
-                    <Card sx={{maxWidth: 600, minWidth: 210}} square={true}>
+                   <a href='#/Services' style={{color: "#444242"}}><Typography sx={{ textDecoration:'underline'}} variant="h3">Services<ArrowForwardIcon fontSize="large"/></Typography></a>
+                   
+                    <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none" }} square={true}>
                       <CardMedia
                         component="img"
-                        image="IMG_0448.jpeg"
+                        image="Taylor Sullivan Bows Logo-01.png"
                         alt="Working in shop1"
                       />
                         
@@ -176,7 +180,14 @@ render() {
       
       
     </Box>
-    </div>
+      </div>
+      </div>
+    
+    );
+  }
+}
+export default Description;
+      /*</div>
       <div>
         <Card sx={{maxWidth: '100%', maxHeight: 700, position: 'relative'}} style={{ border: "none", boxShadow: "none" }} square={true}>
           <CardMedia
@@ -205,8 +216,4 @@ render() {
           </Box>
         </Card>
       </div>
-      </div>
-    );
-  }
-}
-export default Description;
+      </div>*/

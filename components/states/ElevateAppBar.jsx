@@ -22,7 +22,7 @@ import {
 } from 'react-router-dom';
 
 
-const pages = ['About', 'Services', 'Availability', 'Contact'];
+const pages = ['Services', 'About', 'Contact'];
 
 
 
@@ -80,13 +80,7 @@ export default function ElevateAppBar(props) {
           <AppBar style={{ background: 'transparent'}}>
             <Container maxWidth="xl">
               <Toolbar disableGutters>
-                <a href="#/" style= {{color: '#444242'}}>
-                <Typography style={{color:"#444242"}} variant="h6" component="div">
-                 Taylor Sullivan Bows 
-                </Typography>
-                </a>
-                
-                <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} display="flex" alignItems="right" justifyContent="right" >
+                <Box sx={{ flexGrow: 0.73, display: { xs: 'none', md: 'flex' } }} display="flex" alignItems="left" justifyContent="left" >
                   {pages.map((page) => (
 
                   <a href={"#/"+page} style= {{color: '#444242'}}>
@@ -99,6 +93,30 @@ export default function ElevateAppBar(props) {
                     </a>
                   ))}
                 </Box>
+                
+                <Box sx={{flexGrow: 1, justifyContent: 'center', display: { xs: 'none', md: 'flex' } }} display="flex" alignItems="left" justifyContent="center" mx = 'auto'>
+                  <a href="#/" style= {{color: '#444242'}}>
+                    <Typography style={{color:"#444242"}} variant="h4"> 
+                     Taylor Sullivan Bows
+                    </Typography>
+                    </a>
+                </Box>
+                
+                <Box sx={{flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' }}} display="flex" alignItems="right" justifyContent="right">
+                  <a href="#/Contact" style= {{color: '#444242'}}>
+                    <Typography style={{color:"#444242"}} variant="h6" component="div">
+                     Book Appointment
+                    </Typography>
+                  </a>
+                </Box>
+                <Box sx={{flexGrow: 1, justifyContent: 'left', display: { xs: 'flex', md: 'none' }}} display="flex" alignItems="left" justifyContent="left">
+                  <a href="#/Contact" style= {{color: '#444242'}}>
+                    <Typography style={{color:"#444242"}} variant="h6" component="div">
+                     Book Appointment
+                    </Typography>
+                  </a>
+                </Box>
+                
                 <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} display="flex" alignItems="right" justifyContent="right" >
               
                   
@@ -137,6 +155,8 @@ export default function ElevateAppBar(props) {
             </Container>     
           </AppBar>
         </ElevationScroll>
+    
+    
       
         
          

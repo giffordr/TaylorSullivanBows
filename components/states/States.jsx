@@ -44,6 +44,7 @@ import {
 
 import Availability from '../availability/Availability';
 import Services from '../services/Services';
+import Contact from '../contact/Contact';
 import About from '../about/About';
 import Description from '../description/Description';
 import Gallery from '../gallery/Gallery';
@@ -76,7 +77,7 @@ class States extends React.Component {
           <Route path="/description" component={Description} /> 
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
-          <Route path="/availability" component={Availability} />
+          <Route path="/contact" component={Contact} />
           <Route path="/" component={Description} />
           </Switch>
       </HashRouter>
@@ -94,9 +95,6 @@ class States extends React.Component {
                <Stack display="flex" direction="column" spacing={0} align="left">
                  <Typography variant="body" align="left"> 
                    1689 Amberwood Dr.
-                  </Typography>
-                 <Typography variant="body" align="left"> 
-                   Apt 106
                   </Typography>
                  <Typography variant="body" align="left"> 
                    South Pasadena, CA 91030

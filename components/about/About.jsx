@@ -64,7 +64,7 @@ render() {
       <p> 
         <div className = "Description">
           <Typography variant="h4" align="center"> 
-             About Me
+             About Taylor
           </Typography>
         </div>
       </p>
@@ -72,7 +72,7 @@ render() {
       <p> 
         <div >
           <Typography variant="body"> 
-            Taylor Sullivan began her bow repair journey under the instruction of master bow maker Rodney Mohr at his Learning Trade Secrets workshops in Ashland, Ohio. She first became interested in the trade while working on rental instruments and bows at J Brown Violin Maker in Claremont, California. She then made it a goal to start spending time with people in the field whenever she got the chance. From Claremont to Ashland to Nashville and back to the Los Angeles area, she has been influenced by many fine repair women and men and has refined her interests and skills from there. Taylor has studied closely with Rodney and Kate Mohr, Sarah Bystrom, and, most recently, Brianna Goldberg, who has passed on her bass bow rehair and repair expertise.
+            Taylor Sullivan began her bow repair journey under the instruction of master bow maker Rodney Mohr at his Learning Trade Secrets workshops in Ashland, Ohio. Her interest in the world of repair came from refurbishing instruments and bows at J Brown Violin Maker in Claremont, California. Since then, she has been influenced and trained by many fine makers and restorers from all over the country. Taylor has studied closely with bow makers Rodney and Kate Mohr, Sarah Bystrom, and, most recently, Brianna Goldberg, who has passed on her bass bow rehair and repair expertise.
           </Typography>
         </div>
       </p>
@@ -88,7 +88,7 @@ render() {
       <p> 
         <div >
           <Typography variant="body"> 
-            Taylor is an accomplished fiddle player, having grown up in the Missouri old-time fiddle contest scene. She holds a Bachelor of Music degree in violin performance as well as teacher training certificates from the Los Angeles Suzuki Institute. She has enjoyed teaching violin at the Claremont Community School of Music for over six years.
+            Taylor is also an accomplished fiddle player who spent her childhood competing in old-time fiddling contests throughout her home state of Missouri. She is a four-time Missouri State Junior Fiddle Champion and holds a Bachelor of Music degree in Violin Performance.
           </Typography>
         </div>
       </p>

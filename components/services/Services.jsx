@@ -45,39 +45,39 @@ render() {
   return (
     <div className="Body">
       <Box sx={{maxWidth:800}} alignItems="center" justifyContent="center" mx='auto' mt = '15vmin'>
-              <Typography variant="h4" align="center"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h4" align="center"> 
                    Rehair
               </Typography>
         <p></p>
-              <Typography variant="subtitle" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="subtitle" align="left" justifyContent="left"> 
                    All rehairs are $90 and come with a complimentary light cleaning and polishing. Starter rosin is available upon request.
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Stallion(White)
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Chestnut
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Black
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Mix:
               </Typography>
         
-                <li style={{ marginLeft: 30}}><Typography variant="subtitle" align="left" justifyContent="left" >
+                <li style={{ marginLeft: 30}}><Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="subtitle" align="left" justifyContent="left" >
                      Salt & Pepper - Stallion and Black
                 </Typography></li>
         
-                <li style={{ marginLeft: 30}}><Typography variant="subtitle" align="left" justifyContent="left" >
+                <li style={{ marginLeft: 30}}><Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="subtitle" align="left" justifyContent="left" >
                      Cinnamon & Sugar - Stallion and Chestnut
                 </Typography></li>
       
-                <li style={{ marginLeft: 30}}><Typography variant="subtitle" align="left" justifyContent="left">
+                <li style={{ marginLeft: 30}}><Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="subtitle" align="left" justifyContent="left">
                     Peanut Butter & Chocolate - Chestnut and Black
                 </Typography></li>
         <p></p>
@@ -86,31 +86,31 @@ render() {
       </Box>
       
       <Box sx={{maxWidth:800}} alignItems="center" justifyContent="center" mx='auto' mt = '10vmin'>
-        <Typography variant="h4" align="center"> 
+        <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h4" align="center"> 
                    Repair
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Tips
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Windings
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Leather
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Pearl
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Eyelet & Screw Repairs
               </Typography>
         <p></p>
-              <Typography variant="h5" align="left" justifyContent="left"> 
+              <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
                    Camber & Straightening
               </Typography>
         

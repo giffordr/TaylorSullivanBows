@@ -84,7 +84,7 @@ class States extends React.Component {
       
       <footer className="App-footer">
         <Box sx={{width:'100%'}} align-items="left" align="left" m='3vmax'>
-            <Typography variant="h5" align="left"> 
+            <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="h5" align="left"> 
                Taylor Sullivan Bows
             </Typography>
           
@@ -93,10 +93,10 @@ class States extends React.Component {
             <p>
               <Stack align-items="left"> 
                <Stack display="flex" direction="column" spacing={0} align="left">
-                 <Typography variant="body" align="left"> 
+                 <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="body" align="left"> 
                    1689 Amberwood Dr.
                   </Typography>
-                 <Typography variant="body" align="left"> 
+                 <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="body" align="left"> 
                    South Pasadena, CA 91030
                   </Typography>
                </Stack>

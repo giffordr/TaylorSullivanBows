@@ -128,9 +128,12 @@ render() {
     <div>
     <Card id = 'Header' sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
          <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
-             <CardContent sx={{alignItems: 'center', justifyContent:'center', m:'25vmin'}}>   
-              <Typography style={{color:"#444242"}} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
-                   Violin family bow rehair and repair in the Los Angeles area
+             <CardContent sx={{alignItems: 'center', justifyContent:'center', mx:'15vmin', mt:'20vmin', mb:'15vmin'}}>   
+              <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'none', md: 'flex' } }} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
+                   Violin-family bow rehair and repair in the Los Angeles area
+              </Typography>
+               <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'flex', md: 'none' } }} variant="h5" align="center" alignItems="center" justifyContent="center" m='auto'> 
+                   Violin-family bow rehair and repair in the Los Angeles area
               </Typography>
             </CardContent>
           </div>
@@ -153,7 +156,7 @@ render() {
                   alt="Working in shop2"
                 />
               </Card>
-              <a href='#/About' style={{color: "#444242"}}><Typography variant="h3">About Taylor<ArrowForwardIcon fontSize="large"/></Typography></a>
+              <a href='#/About' ><Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h4">About Taylor<ArrowForwardIcon fontSize="medium"/></Typography></a>
               <Divider/>
               
               <p></p>
@@ -163,7 +166,7 @@ render() {
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
                <Stack direction="column" spacing={1}>
                  <p></p>
-                   <a href='#/Services' style={{color: "#444242"}}><Typography variant="h3">Services<ArrowForwardIcon fontSize="large"/></Typography></a>
+                   <a href='#/Services' ><Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h4">Services<ArrowForwardIcon fontSize="medium"/></Typography></a>
                  <Divider/>
                    
                     <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none" }} square={true}>

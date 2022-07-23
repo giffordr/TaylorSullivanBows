@@ -129,11 +129,15 @@ render() {
     <div>
     <Card id="Header" sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
          <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
-             <CardContent sx={{alignItems: 'center', justifyContent:'center', m:'25vmin'}}>   
-              <Typography style={{color:"#444242"}} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
-                   Make an appointment to freshen up your bow & enjoy a better playing experience
+             <CardContent sx={{alignItems: 'center', justifyContent:'center', mx:'15vmin', mt:'20vmin', mb:'15vmin'}}>   
+              <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'none', md: 'flex' } }} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
+                   Freshen up your bow & enjoy a better playing experience
+              </Typography>
+               <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'flex', md: 'none' } }} variant="h5" align="center" alignItems="center" justifyContent="center" m='auto'> 
+                   Freshen up your bow & enjoy a better playing experience
               </Typography>
             </CardContent>
+           
           </div>
       </Card>
     <div className="Body">
@@ -147,10 +151,10 @@ render() {
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
             <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
               <CardContent alignItems="center" justifyContent="center">
-                <Typography variant="h5" alignItems="center" align = "center">Address</Typography><br/>
+                <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Address</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
-                  <Typography variant="subtitle" alignItems="center" align="center">1689 Amberwood Dr</Typography>
-                  <Typography variant="subtitle" alignItems="center" align="center">South Pasadena, CA 91030</Typography>
+                  <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="subtitle" alignItems="center" align="center">1689 Amberwood Dr</Typography>
+                  <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="subtitle" alignItems="center" align="center">South Pasadena, CA 91030</Typography>
                 </Stack>
               </CardContent>
             </Card>
@@ -158,9 +162,9 @@ render() {
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
             <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
               <CardContent>
-                <Typography variant="h5" alignItems="center" align = "center">Phone</Typography><br/>
+                <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Phone</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
-                  <Typography id = 'number' variant="body" alignItems="center" align = "center">(626) 658-7933</Typography>
+                  <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} id = 'number' variant="body" alignItems="center" align = "center">(626) 658-7933</Typography>
                   
                 </Stack>
               </CardContent>
@@ -172,9 +176,9 @@ render() {
         <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
           <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210, display:"flex"}} style={{ border: "none", boxShadow: "none" }}>
               <CardContent>
-                <Typography variant="h5" alignItems="center" align = "center">Email</Typography><br/>
+                <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Email</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
-                  <Typography variant="subtitle"> taylorsullivanbows@gmail.com</Typography>
+                  <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="subtitle"> taylorsullivanbows@gmail.com</Typography>
                 </Stack>
               </CardContent>
             </Card>

@@ -2,5 +2,9 @@
 	font-family: serif;
 }
 a{
-   font-family: serif; 
+   font-family: Georgia; 
+}
+a:link {
+	font-family: Georgia;
+	text-decoration: none;
 }

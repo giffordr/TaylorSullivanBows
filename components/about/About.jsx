@@ -54,13 +54,13 @@ render() {
     <Box sx={{maxWidth:1100}} alignItems="center" justifyContent="center" mx='auto' mt = '15vmin'>
       <p> 
         <div className = "Description">
-          <Typography variant="h4" align="center"> 
+          <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h4" align="center"> 
              About Taylor
           </Typography>
         </div>
       </p>
       <p>
-        <Typography variant="body"> 
+        <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="body"> 
                 Taylor Sullivan began her bow repair journey under the instruction of master bow maker Rodney Mohr at his Learning Trade Secrets workshops in Ashland, Ohio. Her interest in the world of repair came from refurbishing instruments and bows at J Brown Violin Maker in Claremont, California. Since then, she has been influenced and trained by many fine makers and restorers from all over the country. Taylor has studied closely with bow makers Rodney and Kate Mohr, Sarah Bystrom, and, most recently, Brianna Goldberg, who has passed on her bass bow rehair and repair expertise.
         </Typography>
       </p>
@@ -80,7 +80,7 @@ render() {
       
       <p> 
         <div >
-          <Typography variant="body"> 
+          <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="body"> 
             Taylor is also an accomplished fiddle player who spent her childhood competing in old-time fiddling contests throughout her home state of Missouri. She is a four-time Missouri State Junior Fiddle Champion and holds a Bachelor of Music degree in Violin Performance.
           </Typography>
         </div>

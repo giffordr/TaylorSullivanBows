@@ -84,10 +84,11 @@ export default function ElevateAppBar(props) {
                 <Box sx={{ flexGrow: 0.73, display: { xs: 'none', md: 'flex' } }} display="flex" alignItems="left" justifyContent="left" >
                   {pages.map((page) => (
 
-                  <a href={"#/"+page} style= {{color: '#444242'}}>
+                  <a href={"#/"+page} style= {{color: '#444242', fontFamily:'Georgia'}}>
                     <Button
                       key={page}
-                      sx={{ my: 2, color: "#444242", display: 'block' }}
+                      sx={{ my: 2, color: "#444242", display: 'block',fontFamily: 'Georgia' }}
+                      
                     >
                       {page}
                     </Button>
@@ -97,22 +98,22 @@ export default function ElevateAppBar(props) {
                 
                 <Box sx={{flexGrow: 1, justifyContent: 'center', display: { xs: 'none', md: 'flex' } }} display="flex" alignItems="left" justifyContent="center" mx = 'auto'>
                   <a href="#/" style= {{color: '#444242'}}>
-                    <Typography style={{color:"#444242"}} variant="h4"> 
+                    <Typography style={{color:"#444242"}} sx={{fontFamily: 'Georgia', fontWeight: '530' }} variant="h4"> 
                      Taylor Sullivan Bows
                     </Typography>
                     </a>
                 </Box>
                 
                 <Box sx={{flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' }}} display="flex" alignItems="right" justifyContent="right">
-                  <a href="#/Contact" style= {{color: '#444242'}}>
-                    <Button  variant="contained">
+                  <a href="#/Contact" style= {{color: '#444242', fontFamily:'Georgia'}}>
+                    <Button  variant="contained" sx={{fontFamily: 'Georgia' }}>
                        Book Appointment
                     </Button>
                   </a>
                 </Box>
                 <Box sx={{flexGrow: 1, justifyContent: 'left', display: { xs: 'flex', md: 'none' }}} display="flex" alignItems="left" justifyContent="left">
-                  <a href="#/Contact" style= {{color: '#444242'}}>
-                    <Button  variant="contained">
+                  <a href="#/Contact" style= {{color: '#444242', fontFamily:'Georgia'}}>
+                    <Button  variant="contained" sx={{fontFamily: 'Georgia' }}>
                        Book Appointment
                     </Button>
                   </a>
@@ -126,7 +127,7 @@ export default function ElevateAppBar(props) {
                   </IconButton>
                     
                   <Menu
-                    sx={{ mt: '45px' }}
+                    sx={{ mt: '45px',fontFamily: 'Georgia' }}
                     id="menu-appbar"
                     anchorEl={anchorElNav}
                     open={Boolean(anchorElNav)}
@@ -143,9 +144,9 @@ export default function ElevateAppBar(props) {
                   >
                     {pages2.map((page) => (
                     
-                    <a href={"#/"+page} style= {{color: '#444242'}}>
+                    <a href={"#/"+page} style= {{color: '#444242', fontFamily:'Georgia'}}>
                       <MenuItem key={page} >
-                        <Typography textAlign="center">{page}</Typography>
+                        <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia' }} textAlign="center">{page}</Typography>
                       </MenuItem>
                     </a>
                     ))}

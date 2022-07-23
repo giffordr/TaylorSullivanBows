@@ -125,10 +125,10 @@ componentDidMount(){
 render() {
   
   return (
-    <div>
-    <Card id = 'Header' sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
+    <div className="Body">
+    <Card id = 'Header' sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
          <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
-             <CardContent sx={{alignItems: 'center', justifyContent:'center', mx:'15vmin', mt:'20vmin', mb:'15vmin'}}>   
+             <CardContent sx={{alignItems: 'center', justifyContent:'center', mx:'15vmin', mt:'20vmin', mb:'15vmin'}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}}>   
               <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'none', md: 'flex' } }} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
                    Violin-family bow rehair and repair in the Los Angeles area
               </Typography>
@@ -144,12 +144,12 @@ render() {
     <Box sx={{maxWidth:1500}} alignItems="center" justifyContent="center" m='auto'>    
     
       
-      <Box sx={{ flexGrow: 1 }} display="flex" alignItems="center" justifyContent="center" m="auto">      
+      <Box sx={{ flexGrow: 1 }} display="flex" alignItems="center" justifyContent="center" mx="auto">      
         <Grid container rowSpacing={0} columnSpacing={35} display="flex" alignItems="center" justifyContent="center">
    
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
             <Stack direction="column" spacing={1}>
-              <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none" }} square={true}>
+              <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
                 <CardMedia
                   component="img"
                   image="Taylor Sullivan Bows Logo-01.png"
@@ -169,11 +169,11 @@ render() {
                    <a href='#/Services' ><Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h4">Services<ArrowForwardIcon fontSize="medium"/></Typography></a>
                  <Divider/>
                    
-                    <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none" }} square={true}>
+                    <Card sx={{maxWidth: 600, minWidth: 210}} style={{border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
                       <CardMedia
                         component="img"
-                        image="Taylor Sullivan Bows Logo-01.png"
-                        alt="Working in shop1"
+                        image="Taylor Sullivan Bows Logo-01 (1).png"
+                        alt="logo"
                       />
                         
                     </Card>

@@ -1,6 +1,12 @@
 .App {
   text-align: left;
 }
+.Body{
+	padding:15px;
+	background:linear-gradient(  -45deg, #F7F3F3, #FFFFFF);
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;	
+}
 
 .App-logo {
   height: 55vmin;

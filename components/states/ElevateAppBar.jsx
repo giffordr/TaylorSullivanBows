@@ -106,14 +106,14 @@ export default function ElevateAppBar(props) {
                 
                 <Box sx={{flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' }}} display="flex" alignItems="right" justifyContent="right">
                   <a href="#/Contact" style= {{color: '#444242', fontFamily:'Georgia'}}>
-                    <Button  variant="contained" sx={{fontFamily: 'Georgia', textTransform: 'none' }}>
+                    <Button  variant="contained" sx={{fontFamily: 'Georgia', textTransform: 'none', borderRadius:0 }} style={{ border: "none", boxShadow: "none", borderRadius:0 }} square={true}>
                        Contact Taylor
                     </Button>
                   </a>
                 </Box>
                 <Box sx={{flexGrow: 1, justifyContent: 'left', display: { xs: 'flex', md: 'none' }}} display="flex" alignItems="left" justifyContent="left">
                   <a href="#/Contact" style= {{color: '#444242', fontFamily:'Georgia'}}>
-                    <Button  variant="contained" sx={{fontFamily: 'Georgia', textTransform: 'none'}}>
+                    <Button  variant="contained" sx={{fontFamily: 'Georgia', textTransform: 'none'}} style={{ border: "none", boxShadow: "none", borderRadius:0 }} square={true}>
                        Contact Taylor
                     </Button>
                   </a>

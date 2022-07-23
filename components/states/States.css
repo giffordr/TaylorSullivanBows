@@ -47,7 +47,7 @@ a{
   color: white;
 }
 .App-footer{
-  background:linear-gradient( -45deg, #F7F3F3, #FFFFFF);
+  background:linear-gradient( -45deg, #F7F3F3, #dae1eb);
   background-size: 400% 400%;
   max-height: 90vmin;
   animation: gradient 50s ease infinite;

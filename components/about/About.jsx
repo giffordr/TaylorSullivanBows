@@ -51,7 +51,8 @@ render() {
   
   return (
   <div className="Body">
-    <Box sx={{maxWidth:1100}} alignItems="center" justifyContent="center" mx='auto' mt = '15vmin'>
+    <Box className="Body2">
+    <Box sx={{maxWidth:1100}} alignItems="center" justifyContent="center" mx='auto' mt='15vmin'>
       <p> 
         <div className = "Description">
           <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h4" align="center"> 
@@ -78,14 +79,15 @@ render() {
       </Box>
 
       
-      <p> 
+      <p></p> 
         <div >
           <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="body"> 
             Taylor is also an accomplished fiddle player who spent her childhood competing in old-time fiddling contests throughout her home state of Missouri. She is a four-time Missouri State Junior Fiddle Champion and holds a Bachelor of Music degree in Violin Performance.
           </Typography>
         </div>
-      </p>
+      
     </Box>
+      </Box>
       
     
   </div>

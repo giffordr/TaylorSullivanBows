@@ -72,7 +72,7 @@ class States extends React.Component {
       <ElevateAppBar/>
       
 
-      <HashRouter>
+      <HashRouter >
           <Switch>
           <Route path="/home" component={Description} /> 
           <Route path="/about" component={About} />

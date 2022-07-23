@@ -126,10 +126,10 @@ class Description extends React.Component {
 render() {
   
   return (
-    <div>
-    <Card id="Header" sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none" }} square={true}>
+    <div className="Body">
+    <Card id="Header" sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
          <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
-             <CardContent sx={{alignItems: 'center', justifyContent:'center', mx:'15vmin', mt:'20vmin', mb:'15vmin'}}>   
+             <CardContent sx={{alignItems: 'center', justifyContent:'center', mx:'15vmin', mt:'20vmin', mb:'15vmin'}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} >   
               <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'none', md: 'flex' } }} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
                    Freshen up your bow & enjoy a better playing experience
               </Typography>
@@ -149,7 +149,7 @@ render() {
         <Stack direction="column" alignItems="center" justifyContent="center">
         <Grid container spacing={1} display="flex" alignItems="center" justifyContent="center">
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-            <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
+            <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
               <CardContent alignItems="center" justifyContent="center">
                 <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Address</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
@@ -160,7 +160,7 @@ render() {
             </Card>
           </Grid>
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-            <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
+            <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
               <CardContent>
                 <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Phone</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
@@ -174,7 +174,7 @@ render() {
         
         
         <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-          <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210, display:"flex"}} style={{ border: "none", boxShadow: "none" }}>
+          <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210, display:"flex"}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
               <CardContent>
                 <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Email</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
@@ -185,7 +185,7 @@ render() {
 
         </Grid>
           </Grid>
-          <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210, display:"flex"}} style={{ border: "none", boxShadow: "none" }}>
+          <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210, display:"flex"}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
               <CardMedia
                 component="img"
                 image="Taylor Sullivan Bows Logo-01.png"

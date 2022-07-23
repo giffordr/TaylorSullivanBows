@@ -149,7 +149,7 @@ render() {
         <Stack direction="column" alignItems="center" justifyContent="center">
         <Grid container spacing={1} display="flex" alignItems="center" justifyContent="center">
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-            <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
+            <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
               <CardContent alignItems="center" justifyContent="center">
                 <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Address</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
@@ -160,7 +160,7 @@ render() {
             </Card>
           </Grid>
           <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-            <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
+            <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210}} style={{ border: "none", boxShadow: "none" }}>
               <CardContent>
                 <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Phone</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">
@@ -174,7 +174,7 @@ render() {
         
         
         <Grid item xs display="flex" alignItems="center" justifyContent="center" m="auto">
-          <Card sx={{maxWidth: 370, minWidth: 210, minHeight: 210, display:"flex"}} style={{ border: "none", boxShadow: "none" }}>
+          <Card sx={{maxWidth: 370, minWidth: 260, minHeight: 210, display:"flex"}} style={{ border: "none", boxShadow: "none" }}>
               <CardContent>
                 <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" alignItems="center" align = "center">Email</Typography><br/>
                 <Stack direction="column" alignItems="center" align = "center">

@@ -87,7 +87,7 @@ export default function ElevateAppBar(props) {
                   <a href={"#/"+page} style= {{color: '#444242', fontFamily:'Georgia'}}>
                     <Button
                       key={page}
-                      sx={{ my: 2, color: "#444242", display: 'block',fontFamily: 'Georgia' }}
+                      sx={{ my: 2, color: "#444242", display: 'block',fontFamily: 'Georgia', textTransform: 'none' }}
                       
                     >
                       {page}
@@ -106,15 +106,15 @@ export default function ElevateAppBar(props) {
                 
                 <Box sx={{flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' }}} display="flex" alignItems="right" justifyContent="right">
                   <a href="#/Contact" style= {{color: '#444242', fontFamily:'Georgia'}}>
-                    <Button  variant="contained" sx={{fontFamily: 'Georgia' }}>
-                       Book Appointment
+                    <Button  variant="contained" sx={{fontFamily: 'Georgia', textTransform: 'none' }}>
+                       Contact Taylor
                     </Button>
                   </a>
                 </Box>
                 <Box sx={{flexGrow: 1, justifyContent: 'left', display: { xs: 'flex', md: 'none' }}} display="flex" alignItems="left" justifyContent="left">
                   <a href="#/Contact" style= {{color: '#444242', fontFamily:'Georgia'}}>
-                    <Button  variant="contained" sx={{fontFamily: 'Georgia' }}>
-                       Book Appointment
+                    <Button  variant="contained" sx={{fontFamily: 'Georgia', textTransform: 'none'}}>
+                       Contact Taylor
                     </Button>
                   </a>
                 </Box>

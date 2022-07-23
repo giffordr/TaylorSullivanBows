@@ -119,8 +119,7 @@ class Description extends React.Component {
   };
 
   componentDidMount(){
-          const section = document.querySelector( '#Header' );
-            section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+          window.scrollTo({ top: 0, behavior: "smooth" })
 }
  
 render() {

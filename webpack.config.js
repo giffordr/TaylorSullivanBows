@@ -2,7 +2,6 @@ module.exports = {
   entry: {
     gettingStarted: './gettingStarted.jsx',
     p2: './p2.jsx',
-    gameServed: './gameServed.jsx',
   },
   module: {
     rules: [

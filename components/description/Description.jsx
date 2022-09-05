@@ -151,7 +151,7 @@ render() {
               <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
                 <CardMedia
                   component="img"
-                  image="Taylor Sullivan Bows Logo-01.png"
+                  image="ProfeshTaylor.jpg"
                   alt="Working in shop2"
                 />
               </Card>
@@ -171,7 +171,7 @@ render() {
                     <Card sx={{maxWidth: 600, minWidth: 210}} style={{border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
                       <CardMedia
                         component="img"
-                        image="Taylor Sullivan Bows Logo-01 (1).png"
+                        image="WorkingTaylor.jpg"
                         alt="logo"
                       />
                         

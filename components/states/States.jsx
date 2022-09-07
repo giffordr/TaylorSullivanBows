@@ -83,26 +83,50 @@ class States extends React.Component {
       </HashRouter>
       
       <footer className="App-footer">
+        
         <Box sx={{width:'100%'}} align-items="left" align="left" m='3vmax'>
-            <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="h5" align="left"> 
-               Taylor Sullivan Bows
-            </Typography>
           
             
-          
-            <p>
-              <Stack align-items="left"> 
-               <Stack display="flex" direction="column" spacing={0} align="left">
-                 <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="body" align="left"> 
-                   1689 Amberwood Dr.
-                  </Typography>
-                 <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="body" align="left"> 
-                   South Pasadena, CA 91030
-                  </Typography>
-               </Stack>
-              </Stack>  
-            </p>
+            <Stack justifyContent="space-between" direction="row" display="flex" p='2vmax'> 
+              
+              <Stack display="flex" direction="column">
+                <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="h5" align="left"> 
+                   Taylor Sullivan Bows
+                </Typography> 
+                
+                <p>
+                    <Stack align-items="left" justifyContent="space-between" direction="row" display="flex"> 
+                     <Stack display="flex" direction="column" spacing={0} align="left">
+                       <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="body" align="left"> 
+                         1689 Amberwood Dr.
+                        </Typography>
+                       <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Garamond' }} variant="body" align="left"> 
+                         South Pasadena, CA 91030
+                        </Typography>
+                     </Stack>
+                    </Stack> 
+                </p>
+                
+              </Stack>
+                
+              <Card sx={{minWidth: 80, maxWidth: 100}} style={{border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
+                  <CardMedia
+                    component="img"
+                    image="Taylor-Sullivan-Bows-Logo-12.ico"
+                    alt="Taylor Sullivan Bows Logo"
+                  />
+              </Card>
+                
+            </Stack>
+                
+              
+              
+            
+                
+              
+        
         </Box>
+          
         
       </footer> 
       

@@ -72,8 +72,8 @@ render() {
         <Card sx={{ minWidth: 210, maxWidth: 800}}>
           <CardMedia
             component="img"
-            image="TaylorPlaying.jpg"
-            alt="Picture Working In Shop"
+            image="Taylor-Sullivan-Violin-Performance.jpg"
+            alt="Taylor Sullivan Performing on Violin"
           />
         </Card>
       </Box>

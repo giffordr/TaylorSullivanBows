@@ -151,8 +151,8 @@ render() {
               <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
                 <CardMedia
                   component="img"
-                  image="ProfeshTaylor.jpg"
-                  alt="Working in shop2"
+                  image="Taylor-Sullivan-Bow-Repair.jpg"
+                  alt="Taylor Sullivan in Bow Repair Workshop"
                 />
               </Card>
               <a href='#/About' ><Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h4">About Taylor<ArrowForwardIcon fontSize="medium"/></Typography></a>
@@ -171,8 +171,8 @@ render() {
                     <Card sx={{maxWidth: 600, minWidth: 210}} style={{border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
                       <CardMedia
                         component="img"
-                        image="WorkingTaylor.jpg"
-                        alt="logo"
+                        image="Taylor-Sullivan-Bow-Rehair-Workshop.jpg"
+                        alt="Taylor Sullivan Bow Rehair in Workshop"
                       />
                         
                     </Card>

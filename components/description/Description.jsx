@@ -151,7 +151,7 @@ render() {
               <Card sx={{maxWidth: 600, minWidth: 210}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
                 <CardMedia
                   component="img"
-                  image="Taylor-Sullivan-Bow-Repair-2.jpg"
+                  image="Taylor-Sullivan-Bow-Repair.webp"
                   alt="Taylor Sullivan in Bow Repair Workshop"
                 />
               </Card>
@@ -171,7 +171,7 @@ render() {
                     <Card sx={{maxWidth: 600, minWidth: 210}} style={{border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
                       <CardMedia
                         component="img"
-                        image="Taylor-Sullivan-Bow-Rehair-Workshop-2.jpg"
+                        image="Taylor-Sullivan-Bow-Rehair-Workshop.webp"
                         alt="Taylor Sullivan Bow Rehair in Workshop"
                       />
                         

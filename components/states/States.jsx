@@ -12,7 +12,6 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import dong from './A_resonant_trimmed_2.mp3'
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -42,7 +41,7 @@ import {
 } from 'react-router-dom';
 
 
-import Availability from '../availability/Availability';
+
 import Services from '../services/Services';
 import Contact from '../contact/Contact';
 import About from '../about/About';

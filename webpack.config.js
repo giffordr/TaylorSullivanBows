@@ -1,7 +1,6 @@
 module.exports = {
   entry: {
-    gettingStarted: './gettingStarted.jsx',
-    p2: './p2.jsx',
+    TaylorSullivanBows: './TaylorSullivanBows.jsx',
   },
   module: {
     rules: [

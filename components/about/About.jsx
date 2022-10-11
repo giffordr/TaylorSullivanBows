@@ -37,9 +37,6 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CloseIcon from '@mui/icons-material/Close';
 
 
-import Statement from '../statement/Statement';
-
-
 class About extends React.Component {
 
 componentDidMount(){

@@ -26,12 +26,11 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import {
   HashRouter, Route, Routes, Link, Switch,
 } from 'react-router-dom';
-
 import CloseIcon from '@mui/icons-material/Close';
 
 
-class Description extends React.Component {
-
+class Contact extends React.Component {
+  
    
   handleClose = (event, reason) => {
     if (reason === 'clickaway') {
@@ -43,25 +42,29 @@ class Description extends React.Component {
   componentDidMount(){
           window.scrollTo({ top: 0, behavior: "smooth" })
 }
+  
  
 render() {
   
   return (
+   
     <div className="Body">
-    <Card id="Header" sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
-         <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
-             <CardContent sx={{alignItems: 'center', justifyContent:'center', mx:'15vmin', mt:'20vmin', mb:'15vmin'}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} >   
-              <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'none', md: 'flex' } }} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
-                   Freshen up your bow & enjoy a better playing experience
-              </Typography>
-               <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'flex', md: 'none' } }} variant="h5" align="center" alignItems="center" justifyContent="center" m='auto'> 
-                   Freshen up your bow & enjoy a better playing experience
-              </Typography>
-            </CardContent>
-           
-          </div>
-      </Card>
+      <Card id="Header" sx={{maxWidth: '100%', height: '20%', minHeight: 200, maxHeight: 700}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} square={true}>
+           <div style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
+               <CardContent sx={{alignItems: 'center', justifyContent:'center', mx:'15vmin', mt:'20vmin', mb:'15vmin'}} style={{ border: "none", boxShadow: "none", backgroundColor: 'transparent'}} >   
+                <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'none', md: 'flex' } }} variant="h4" align="center" alignItems="center" justifyContent="center" m='auto'> 
+                     Freshen up your bow & enjoy a better playing experience
+                </Typography>
+                 <Typography style={{color:"#444242"}} sx={{ fontFamily: 'Georgia', display: { xs: 'flex', md: 'none' } }} variant="h5" align="center" alignItems="center" justifyContent="center" m='auto'> 
+                     Freshen up your bow & enjoy a better playing experience
+                </Typography>
+              </CardContent>
+             
+            </div>
+        </Card>
     <div className="Body">
+
+      
       
     <Box sx={{maxWidth:1100}} alignItems="center" justifyContent="center" m='auto'>    
     
@@ -117,6 +120,7 @@ render() {
           </Stack>
       </Box>
       
+      
             
       
       
@@ -126,4 +130,4 @@ render() {
     );
   }
 }
-export default Description;
+export default Contact;

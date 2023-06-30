@@ -50,7 +50,7 @@ render() {
               </Typography>
         <p></p>
               <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="subtitle" align="left" justifyContent="left"> 
-                   All rehairs are $90 and come with a complimentary light cleaning and polishing. Starter rosin is available upon request.
+                   All rehairs come with a complimentary light cleaning and polishing. Starter rosin is available upon request.
               </Typography>
         <p></p>
               <Typography sx={{ fontFamily: 'Georgia' }} style={{color: "#444242"}} variant="h5" align="left" justifyContent="left"> 
